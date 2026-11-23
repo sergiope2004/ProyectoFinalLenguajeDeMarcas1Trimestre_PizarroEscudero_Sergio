@@ -1,0 +1,70 @@
+
+/* --------------- VARIABLES ----------------------------------- */
+
+:root {
+    --color-naranja: #FF9800;
+}
+
+/* --------------- PRINCIPAL ----------------------------------- */
+
+*{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    min-width: 1200px;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-naranja);
+}
+
+.logo img{
+    width: 200px;
+}
+
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+.menu-header a{
+    line-height: 70px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.menu-header{
+    word-spacing: 10px;
+}
+
+.buscar{
+    line-height: 70px;
+}
+
+.cabecera input{
+    border: #808080 solid 1px;
+    border-radius: 5px;
+    background-color: rgb(234, 234, 234);
+    padding: 7px;
+    margin-right: 9px;
+}
+
+.cabecera input::placeholder{
+    color: #808080;
+}
+
+.cuerpo-pagina{
+    background-color: aqua;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
