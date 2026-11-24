@@ -13,10 +13,10 @@
 
 body{
     margin: 0;
-    min-width: 1200px;
-    min-height: 800px;
+    min-width: 700px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: var(--color-naranja);
 }
 
@@ -37,8 +37,7 @@ body{
     line-height: 70px;
     text-decoration: none;
     color: black;
-    font-weight: bolder;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    font-weight: bold;
 }
 
 .menu-header{
@@ -61,10 +60,89 @@ body{
     color: #808080;
 }
 
+
+/* -------------------- CUERPO PAGINA ------------------------------ */
+
+
 .cuerpo-pagina{
-    background-color: aqua;
-    margin-left: 5px;
-    margin-right: 5px;
+    background-color: white;
+    border: white 20px solid;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.subtitulo-cuerpo-pagina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.subtitulo-cuerpo-pagina img{
+    width: 90px;
+}
+
+.inicio h2,
+.contenido h2,
+.contacto h2{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.inicio img,
+.contenido img,
+.contacto img{
+    width: 60px;
+}
+
+.cuerpo-pagina h1{
+    text-align: center;
+}
+
+.inicio, 
+.contenido, 
+.contacto{
+    border: #ff9900 2px solid;
+    background-color: #fff1dc;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.inicio,
+.contenido{
+    margin-bottom: 20px;
 }
 
 
+
+
+
+
+
+
+
+
+
+.pie-pagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: white solid 5px;
+    background-color: white;
+}
+
+.copyright{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.imagen-footer img{
+    width: 100px;
+}
